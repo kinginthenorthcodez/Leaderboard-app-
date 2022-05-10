@@ -8,6 +8,7 @@
 
 - Webpack
 - Linters
+- Use ES6 modules
 
 ## Live Demo
 

@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>Leaderboard-app</title>
 <script defer src="main.bundle.js"></script></head>
 <body>
-    <h1>Hello webpack!</h1>
+     <h1 class="main-title"> Leaderboard</h1>
+
+     <section class="main flex-row width-100">
+         <div class="recent-scores flex-column width-50">
+             <div class="scores-title flex-row">
+                <h3 class="score-title">Recent Scores</h3>
+                <button class="btn refresh-btn" type="button">Refresh</button>
+             </div>
+             <div class="scores-content">
+                 <p class="score">Name: 100</p>
+                 <p class="score">Name: 20</p>
+                 <p class="score">Name: 50</p>
+                 <p class="score">Name: 78</p>
+                 <p class="score">Name: 125</p>
+                 <p class="score">Name: 77</p>
+                 <p class="score">Name: 42</p>
+             </div>
+         </div>
+         <form action="#" class="score-form width-50 flex-column">
+             <h3 class="scores-title">Add Your Score</h3>
+             <div class="container flex-column">
+                <input type="text" name="userName" placeholder="your name" class="inputs" required>
+                <input type="number" name="userScore" placeholder="your score" class="inputs" required>
+                <button type="submit" class="btn btn-submit">Submit</button>
+             </div>
+         </form>
+     </section>
+
+     <footer></footer>
 </body>
 </html>

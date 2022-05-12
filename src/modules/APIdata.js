@@ -1,6 +1,6 @@
 export class DataAPI {
   constructor() {
-    this.url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/NIsz8fkt26lmn27CsIOPQ/scores/';
+    this.url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/NIsz8fkt26lmn27CsIOPA/scores/';
     this.scoreList = document.querySelector('.scores-content');
   }
 
@@ -27,7 +27,7 @@ export class DataAPI {
       });
   }
 
-  getMsg = (Msgdata) => Msgdata;
+  getMsg = (Msgdata = { result: 'Leaderboard score created correctly.' }) => Msgdata;
 
   displayData = (data) => {
     data.sort((a, b) => b.score - a.score);

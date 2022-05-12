@@ -1,5 +1,7 @@
 import { data } from './APIdata.js';
 
+const message = data.getMsg();
+
 export class Board {
   constructor() {
     this.inputName = document.querySelector('#userName');
@@ -15,6 +17,7 @@ export class Board {
           this.userScore.style = 'outline: 1px solid green;';
           data.setData(this.inputName.value, this.userScore.value);
           this.form.reset();
+          this.getMessage(message);
           this.removeMessege();
         } else {
           this.userScore.style = 'outline: 1px solid red;';
@@ -38,6 +41,4 @@ export class Board {
   }
 }
 
-const message = data.getMsg;
 export const newData = new Board();
-newData.getMessage(message);

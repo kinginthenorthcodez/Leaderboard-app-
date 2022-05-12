@@ -49,6 +49,7 @@ Go to the directory where you want to "pull" (download) the repo. If it doesn't 
 Once you get into your directory, type in the terminal: git clone https or git clone SSH, and then press enter. Example: git clone  https://github.com/kinginthenorthcodez/Leaderboard-app-
 
 ### Step 7:
+run npm i to get all the project dependencies and run npm start to run the project.
 
 Ready to work?⛏️ You're all set to explore and change the repo locally (on your computer).
 

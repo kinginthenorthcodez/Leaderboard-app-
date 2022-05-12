@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
   scroll-behavior: smooth;
 }
@@ -40,6 +41,11 @@ body {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
+.btn:hover {
+  background-color: #eaf0ea;
+  color: orange;
+}
+
 .text-center {
   text-align: center;
 }
@@ -48,6 +54,11 @@ body {
   margin-top: 5%;
   padding: 10px;
   font-size: 38px;
+  color: orangered;
+}
+
+.main-title::after {
+  content: "🎮";
 }
 
 .main {
@@ -79,6 +90,19 @@ body {
   gap: 10px;
   align-content: center;
   justify-content: space-between;
+}
+
+.player {
+  color: orange;
+  font-weight: bolder;
+}
+
+.scoreValue {
+  color: orangered;
+}
+
+.successMsg {
+  color: lightseagreen;
 }
 
 .score:nth-child(even) {
@@ -117,4 +141,23 @@ footer {
   width: 100%;
   bottom: 0;
   background: rgb(175, 170, 170);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    gap: 60px;
+  }
+
+  .score-form {
+    position: relative;
+    margin-bottom: 100px;
+    padding-bottom: 55px;
+  }
 }

@@ -23,9 +23,11 @@ export class DataAPI {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        this.getMsg(data);
       });
   }
+
+  getMsg = (Msgdata) => Msgdata;
 
   displayData = (data) => {
     data.sort((a, b) => b.score - a.score);

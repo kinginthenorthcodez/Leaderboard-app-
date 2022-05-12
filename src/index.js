@@ -4,7 +4,6 @@ import { newData } from './modules/sendData.js';
 
 const refresh = document.querySelector('#refresh');
 refresh.addEventListener('click', () => {
-  console.log('click');
   window.location.reload();
 });
 

@@ -12,24 +12,18 @@
          <div class="recent-scores flex-column width-50">
              <div class="scores-title flex-row">
                 <h3 class="score-title">Recent Scores</h3>
-                <button class="btn refresh-btn" type="button">Refresh</button>
+                <button id="refresh" class="btn refresh-btn" type="button">Refresh</button>
              </div>
-             <div class="scores-content">
-                 <p class="score">Name: 100</p>
-                 <p class="score">Name: 20</p>
-                 <p class="score">Name: 50</p>
-                 <p class="score">Name: 78</p>
-                 <p class="score">Name: 125</p>
-                 <p class="score">Name: 77</p>
-                 <p class="score">Name: 42</p>
-             </div>
+             <ul class="scores-content">
+            
+            </ul>
          </div>
          <form action="#" class="score-form width-50 flex-column">
              <h3 class="scores-title">Add Your Score</h3>
              <div class="container flex-column">
-                <input type="text" name="userName" placeholder="your name" class="inputs" required>
-                <input type="number" name="userScore" placeholder="your score" class="inputs" required>
-                <button type="submit" class="btn btn-submit">Submit</button>
+                <input type="text"  id="userName" name="userName" placeholder="your name" class="inputs" maxlength="10" required>
+                <input type="text" id="userScore" name="userScore" placeholder="your score" class="inputs"  pattern="\d*" maxlength="6" required>
+                <button type="submit" id="submit" class="btn btn-submit">Submit</button>
              </div>
          </form>
      </section>

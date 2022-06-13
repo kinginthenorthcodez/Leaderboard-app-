@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Boilerplate Webpack
 
@@ -74,3 +75,6 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+=======
+# Leaderboard-app-
+>>>>>>> 3613cc2c9d6cce210b8f89b745ec5ae493d5db09

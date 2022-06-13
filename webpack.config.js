@@ -15,7 +15,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Wbpack Exercise',
+      title: 'Leaderboard app',
       template: './src/index.html',
     }),
   ],

@@ -1,14 +1,22 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# leaderboard App
+>>>>>>> development
 
-# Boilerplate Webpack
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. 
 
-> A Build tool 
-
+![screenshot](./app_screenshot.png)
 
 ## Built With
 
 - Webpack
 - Linters
+- Use ES6 modules
+- API
+- JavaScript
+- HTML
+- CSS
 
 ## Live Demo
 
@@ -22,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Step 1:
 
-Go to the repo (https://github.com/kinginthenorthcodez/webpack-boilerplate.git) and click on the <>Code tab.
+Go to the repo (https://github.com/kinginthenorthcodez/Leaderboard-app-) and click on the <>Code tab.
 
 ### Step 2:
 
@@ -42,9 +50,10 @@ Go to the directory where you want to "pull" (download) the repo. If it doesn't 
 
 ### Step 6:
 
-Once you get into your directory, type in the terminal: git clone https or git clone SSH, and then press enter. Example: git clone  https://github.com/kinginthenorthcodez/webpack-boilerplate.git
+Once you get into your directory, type in the terminal: git clone https or git clone SSH, and then press enter. Example: git clone  https://github.com/kinginthenorthcodez/Leaderboard-app-
 
 ### Step 7:
+run npm i to get all the project dependencies and run npm start to run the project.
 
 Ready to work?⛏️ You're all set to explore and change the repo locally (on your computer).
 
@@ -60,7 +69,7 @@ Ready to work?⛏️ You're all set to explore and change the repo locally (on y
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kinginthenorthcodez/webpack-boilerplate.git)
+Feel free to check the [issues page](https://github.com/kinginthenorthcodez/Leaderboard-app-)
 
 ## Show your support
 

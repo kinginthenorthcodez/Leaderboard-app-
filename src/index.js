@@ -1,14 +1,13 @@
-import _ from 'lodash';
 import './style.css';
+import { data } from './modules/APIdata.js';
+import { newData } from './modules/sendData.js';
 
- function component() {
-   const element = document.createElement('div');
+const refresh = document.querySelector('#refresh');
+refresh.addEventListener('click', () => {
+  window.location.reload();
+});
 
-   // Lodash, now imported by this script
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-  console.log('I get called from print.js!');
-   return element;
- }
-
- document.body.appendChild(component());
+window.onload = () => {
+  data.getData();
+  newData.addData();
+};

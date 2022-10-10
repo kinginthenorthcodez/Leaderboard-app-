@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-(Not available))
+[Live demo](https://leaderboard-rush.netlify.app/)
 
 ## Getting Started
 
